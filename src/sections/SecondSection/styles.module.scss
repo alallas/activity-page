@@ -1,0 +1,28 @@
+.secondSection{
+    ul{
+        height: 56px;      
+        //为什么要给高度而不是用padding去撑开呢，因为要给一个全局定位的方式
+        //顶上去之后，下面的东西会浮上来，固定了高度可以用margin-top去避免这个东西被盖住的风险
+
+        display: flex;
+        align-items: center;    //对比justiify-content:between,*+*,前者以页宽为主，后者间隔以自定义为主
+        justify-content: space-around;
+
+        li{
+            color: white;
+            list-style: none;
+        }
+    }
+    section{
+        padding: 16px;
+
+        h2{
+            color: white;
+        }
+        img{
+            margin-top: 16px;
+            width: 100%;
+            border-radius: 6px;
+        }
+    }
+}
