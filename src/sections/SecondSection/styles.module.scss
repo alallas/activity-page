@@ -46,7 +46,7 @@
         }
     }
     section{
-        scroll-margin: 56px;    //相当于往上面顶56px，留出56px的空白
+        scroll-margin: 56px;    //相当于往上面顶56px，留出56px的空白，而且只在滚动的时候才会有
         padding: 16px;     //移动端的页面padding一般16px比较好
 
         h2{
